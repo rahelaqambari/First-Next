@@ -1,5 +1,8 @@
+import { Metadata } from 'next'
 import React from 'react'
-
+export const metadata : Metadata = {
+    title: "home"
+}
 function page() {
   return (
     <div className='h-screen w-full items-center justify-center flex flex-col'>

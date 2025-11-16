@@ -1,9 +1,14 @@
-import { Metadata } from 'next'
+import type{ Metadata } from 'next'
+import { type } from 'os';
 import React from 'react'
+// import "../globals.css";
 
 export const metadata: Metadata = {
-  title: "Next js App",
-  description: "Studing next js"
+  title: {
+    default: "Home",
+    template:"Rahela Qambari | %s"
+  },
+  
 };
 function layout({children}:{children: React.ReactNode}) {
   return (
