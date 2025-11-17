@@ -1,6 +1,6 @@
 import React from 'react'
 import { notFound } from 'next/navigation';
-
+import { Metadata } from 'next';
 async function page({params} : {params : Promise <{postid:string}>}) {
     const postid = (await params).postid;
     if (+postid>1000){

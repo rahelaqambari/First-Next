@@ -1,7 +1,13 @@
 import type{ Metadata } from 'next'
 import { type } from 'os';
 import React from 'react'
-// import "../globals.css";
+import "./globals.css";
+import Link from 'next/link';
+import Navbar from './Navbar';
+
+
+
+ 
 
 export const metadata: Metadata = {
   title: {
@@ -14,26 +20,8 @@ function layout({children}:{children: React.ReactNode}) {
   return (
   <html>
     <body>
-      <nav style={{
-        backgroundColor:"green",
-        padding : "12px",
-        alignItems: "center",
-      }}>
-        <h1 style={{
-          
-          color: "white"
-        }}>Header</h1>
-      </nav>
-      {children}
-      <footer style={{
-        backgroundColor:"green",
-        padding : "12px",
-      }}>
-        <h1 style={{
-          
-          color: "white"
-        }}>Footer</h1>
-      </footer>
+     <Navbar />
+    {children}
     </body>
   </html>    
   )

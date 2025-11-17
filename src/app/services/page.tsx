@@ -2,8 +2,11 @@ import React from 'react'
 
 function page() {
   return (
-    <div className='bg-amber-700 p-4 text-2xl text-white'>
-      this is the services page
+    <div className='h-screen w-full flex items-center justify-center'>
+      <div className='h-56 w-[40%] border rotate-12 rounded-4xl rounded-bl-none rounded-tr-none shadow-2xl text-3xl items-center justify-center flex'>
+        <h1 className='text-blue-400'>Services page</h1>
+      </div>
+      
     </div>
   )
 }
