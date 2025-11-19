@@ -24,7 +24,7 @@ const navlist:{id:number; name:string; href:string} []= [
     name: "Services",
     href: "/services"
   }
-]
+];
 
 function Navbar() {
     const pathname = usePathname ();
