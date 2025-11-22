@@ -3,7 +3,7 @@ import { type } from 'os';
 import React from 'react'
 import "./globals.css";
 import Link from 'next/link';
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
 
 
 
@@ -20,7 +20,7 @@ function layout({children}:{children: React.ReactNode}) {
   return (
   <html>
     <body>
-     <Navbar />
+     {/* <Navbar /> */}
     {children}
     </body>
   </html>    
