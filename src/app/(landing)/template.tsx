@@ -11,6 +11,7 @@ function layout({children}:{children: React.ReactNode}) {
             <Link href="/sighin">Sigh In</Link>
         </nav>
         <Input />
+        
         {children}
     </div>
   )
