@@ -9,6 +9,7 @@ function layout({children}:{children: React.ReactNode}) {
             <Link href="/rajestar">Rejester</Link>
             <Link href="/sighup">Sigh Up</Link>
             <Link href="/sighin">Sigh In</Link>
+            <Link href="/story">Story</Link>
         </nav>
         <Input />
         

@@ -4,7 +4,7 @@ async function page() {
   await new Promise(resolve =>{
     setTimeout(()=>{
       resolve("awiat amdi");
-    }, 6000);
+    }, 3000);
   })
   return (
     <div className='w-full flex items-center justify-center'>
