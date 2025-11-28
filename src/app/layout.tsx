@@ -2,6 +2,7 @@ import type{ Metadata } from 'next'
 
 import React from 'react'
 import "./globals.css";
+import Navbar from './Navbar';
 
 
 
@@ -22,6 +23,7 @@ function layout({children}: Readonly<{
   return (
   <html>
     <body>
+      <Navbar />
     {children}
     </body>
   </html>    

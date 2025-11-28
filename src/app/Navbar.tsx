@@ -26,8 +26,8 @@ const navlist:{id:number; name:string; href:string} []= [
   },
   {
     id: 5,
-    name: "Dashboard",
-    href: "/dashboard"
+    name: "Folder",
+    href: "/F1"
   }
 ];
 
