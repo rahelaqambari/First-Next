@@ -59,7 +59,7 @@ const wondersImages: WonderImage [] = [
     {
      id: "8",
     name: "Effle Tower",
-    src: "/img/8.jpg",
+    src: "/img/8.png",
     photographer: "photo by Ra Hee on unsplash",
     location: "France",
    },

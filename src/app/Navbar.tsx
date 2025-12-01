@@ -26,9 +26,14 @@ const navlist:{id:number; name:string; href:string} []= [
   },
   {
     id: 5,
-    name: "Folder",
-    href: "/F1"
-  }
+    name: "Gallary",
+    href: "/gallery"
+  },
+  // {
+  //   id: 5,
+  //   name: "Folder",
+  //   href: "/F1"
+  // }
 ];
 
 function Navbar() {
