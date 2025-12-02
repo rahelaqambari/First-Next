@@ -14,14 +14,16 @@ export const metadata: Metadata = {
   },
   
 };
-function layout({children}: Readonly<{
+function layout(props: {
+  modal: React.ReactNode;
   children: React.ReactNode;
  
-}>) {
+}) {
   return (
   <html>
     <body>
-    {children}
+    {props.modal}
+    {props.children}
     </body>
   </html>    
   )
