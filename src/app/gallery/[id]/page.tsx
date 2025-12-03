@@ -8,7 +8,7 @@ export default async function PhotoPage({params}: {params: Promise<{id: string}>
       <div className="container mx-auto my-7">
             <div className="w-1/2 mx-auto">
             <div>
-                <h1 className="text-center text-5xl text-gray-300 font-bold my-3 ">{photo.name}</h1>
+                <h1 className="text-center text-5xl font-bold my-3 bg-linear-to-r text-transparent from-blue-950 to-cyan-500 via-green-500 bg-clip-text ">{photo.name}</h1>
             </div>
             <Image className="w-full object-cover aspect-square rounded-sm"
             alt={photo.name}
