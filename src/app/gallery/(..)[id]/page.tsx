@@ -7,7 +7,7 @@ export default async function PhotoModal({params}: {params: Promise<{id: string}
     const photo: WonderImage = wondersImages.find((p) =>p.id === id)!;
     return(
         <Modal>
-            <Image className="w-full object-cover aspect-square rounded-sm"
+            <Image className="w-full object-cover aspect-square rounded-sm "
             alt={photo.name}
             width={1000}
             height={1000}

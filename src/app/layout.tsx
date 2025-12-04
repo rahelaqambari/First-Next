@@ -4,11 +4,6 @@ import React from 'react'
 import "./globals.css";
 import Navbar from './Navbar';
 
-
-
-
- 
-
 export const metadata: Metadata = {
   title: {
     default: "Home",
@@ -23,7 +18,7 @@ function layout({children}: Readonly<{
   return (
   <html>
     <body>
-      <Navbar />
+    <Navbar />
     {children}
     </body>
   </html>    
