@@ -5,6 +5,7 @@ export default function Home() {
    <div className='h-fit gap-12 mt-32 w-full flex flex-col items-center justify-center'>
     <div className="h-72 w-[60%] border rounded-4xl gap-4 bg-black/50 rounded-bl-none rounded-tr-none shadow-2xl text-3xl items-center justify-center flex flex-col">
       <h1 className="text-5xl font-serif font-bold">About Me</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quibusdam hic, ratione accusamus, deleniti pariatur sed exercitationem, sequi saepe odit minima cum sit repudiandae est magnam? Deleniti itaque explicabo odio?</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, itaque a assumenda tempora neque eaque unde obcaecati? Eaque earum deserunt nulla pariatur, velit dignissimos provident, numquam itaque sit nihil iste.</p>
        <p className="w-[70%] text-base text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi quidem doloribus illum odio unde, vel deleniti consectetur ipsum error, laboriosam ut aspernatur voluptas quos voluptate dignissimos.</p>
     </div>
