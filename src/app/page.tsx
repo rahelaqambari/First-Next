@@ -19,7 +19,7 @@ export default function Home() {
       </div> */}
 
       <div className="h-fit w-fit p-50 text-base">
-        <h1>IN the Name of ALLAH</h1>
+        <h1 className="bg-linear-60 from-blue-800 to-red-900 via-pink-500 bg-clip-text text-transparent">IN the Name of ALLAH</h1>
 
       </div>
     </div>
