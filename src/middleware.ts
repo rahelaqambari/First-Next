@@ -8,7 +8,7 @@ if (!info){
     response.cookies.set("amount of product", "1000");
 }
 if(request.nextUrl.pathname ==="/pro1"){
-    return NextResponse.rewrite(new URL('/updatepro1',request.url));
+    return NextResponse.rewrite(new URL('/services',request.url));
 }
 return response;
 }
