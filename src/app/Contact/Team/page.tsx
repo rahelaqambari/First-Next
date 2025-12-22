@@ -12,12 +12,11 @@ function page() {
         <div className='h-[68vh] ml-32 rounded-full outline-8 outline-blue-900 w-[40%] border-blue-900 mt-12 border-8 hover:shadow-2xl shadow-blue-700'>
         </div>
        <div className='flex flex-col h-fit gap-8 mt-12'>
-        <div className='h-16 w-20 bg-blue-900'></div>
-        <div className='h-16 w-20 bg-blue-900'></div>
-        <div className='h-16 w-20 bg-blue-900'></div>
-        <div className='h-16 w-20 bg-blue-900'></div>
-        <div className='h-16 w-20 bg-blue-900'></div>
-        <div className='h-16 w-20 bg-blue-900'></div>
+        <div className='h-14 w-16 bg-blue-900'></div>
+        <div className='h-14 w-16 bg-blue-900'></div>
+        <div className='h-14 w-16 bg-blue-900'></div>
+        <div className='h-14 w-16 bg-blue-900'></div>
+
        </div>
       </div>
     </div>
