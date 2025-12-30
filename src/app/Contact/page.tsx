@@ -1,3 +1,5 @@
+import Pest from '@/Components/Pest'
+import Review from '@/Components/Review'
 import { Metadata } from 'next'
 import React from 'react'
 export const metadata :Metadata = {
@@ -7,9 +9,11 @@ export const metadata :Metadata = {
 
 function page() {
   return (
-   <div className='h-screen w-full flex items-center justify-center'>
-      <div className='h-56 w-[40%] border rotate-12 rounded-4xl rounded-bl-none rounded-tr-none shadow-2xl text-3xl items-center justify-center flex'>
-        <h1 className='text-blue-400'>Contact page</h1>
+   <div className='h-screen w-full flex flex-col items-center justify-center'>
+    <h1 className='text-green-700 font-bold p-12 text-6xl'>Contact page</h1>
+      <div className='text-3xl items-center justify-center flex p-24'>
+        <Pest/>
+      <Review/>
       </div>
       
     </div>
