@@ -15,9 +15,9 @@ async function page() {
     <div className='h-fit w-full grid gap-4 grid-cols-2 items-center justify-center'>
         {userList.map(user=>(
             <div key={user.id} className='bg-stone-300 p-8 flex gap-1 flex-col items-center justify-center'>
-                <h1 className=''>{user.name}</h1>
-                <Link href={`mailto:${user.email}`}>{user.email}</Link>
-                <Link href={`Tell:${user.phone}`}>{user.phone}</Link>
+                <h1 className='text-3xl font-bold text-amber-800'>{user.name}</h1>
+                <Link className='text-gray-100' href={`mailto:${user.email}`}>{user.email}</Link>
+                <Link className='text-gray-100' href={`Tell:${user.phone}`}>{user.phone}</Link>
             </div>
         ))}
     </div>
