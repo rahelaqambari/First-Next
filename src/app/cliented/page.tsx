@@ -27,7 +27,7 @@ function page() {
             }
         }> 
       <h1 className='text-4xl font-bold'>Hi There , Good Evening</h1>
-      <button className="bg-green-600 py-4 px-5 rounded-md shadow-2xs shadow-white text-center" onClick={()=>setdark(!dark)}>Toggle theme</button>
+      <button className="bg-green-600 py-4 px-5 rounded-md shadow-2xs shadow-white text-center text-white" onClick={()=>setdark(!dark)}>Change theme</button>
     </div>
   )
 }
