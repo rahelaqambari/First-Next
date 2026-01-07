@@ -1,6 +1,4 @@
 import Link from 'next/link';
-import React from 'react'
-
 type Client = {
     id: number;
     name: string;
