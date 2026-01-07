@@ -7,6 +7,7 @@ type Client = {
 }
 
 async function page() {
+    await new Promise((resolve)=> setTimeout(resolve,1000));
     const response = await fetch("https://jsonplaceholder.typicode.com/users");
     const userList:Client[] = await response.json();
      return (

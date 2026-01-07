@@ -6,7 +6,6 @@ type user = {
     email: string;
     website: string;
 }
-
 async function page() {
     const [list,setlist] = useState<user[]>([])
     const [loading,setloading] = useState(true);
@@ -27,7 +26,7 @@ async function page() {
         }
         fetchData();
     },[]);
-    return (loading ? <h1 className='p-32 mx-auto w-full  text-6xl text-green-700 font-bold '>loading...</h1>:
+    return (loading ? <h1 className='p-32 mx-auto w-full  text-6xl text-green-700 font-bold text-center animate-bounce'>loading...</h1>:
         <div className='w-10/12 mx-auto flex flex-col'>
             {list.map((user ,index)=> (
                 <div key={index} className='border p-12 flex flex-ol items-center justify-center'>
