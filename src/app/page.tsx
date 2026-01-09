@@ -1,3 +1,4 @@
+import Me from "@/Components/Me";
 import Image from "next/image";
 
 export default function Home() {
@@ -17,7 +18,7 @@ export default function Home() {
         <div className="h-28 absolute left-[201px] w-1.5 bg-green-700 top-4"></div>
         <div className="h-64 w-64 rounded-full border-8 border-t-green-700 border-b-green-600 border-r-green-600 border-l-green-700 absolute top-32 left-[71px]"></div>
       </div> */}
-
+      <Me />
       <div className="h-[60vh] w-[50%] border border-cyan-700 hover:shadow shadow-cyan-600 shadow-2xl p-12 font-serif text-base flex flex-col justify-center items-center">
         <h1 className="bg-linear-60 from-blue-400 to-cyan-800 bg-clip-text text-transparent text-6xl font-bold hover:shadow-2xl w-full">Sana Meysam</h1>
         <p className="text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, in voluptatum. Sit ipsam porro, omnis quia, excepturi sed nulla debitis velit, exercitationem dolor vel rerum nam iste. Delectus, quo voluptatem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus minus ea porro, adipisci alias molestias vitae necessitatibus. Explicabo tempore corporis a. Ducimus animi minus, maiores obcaecati quam neque expedita minima?</p>
