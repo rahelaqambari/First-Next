@@ -17,7 +17,7 @@ function layout({children}: Readonly<{
   return (
   <html>
     <body>
-    <Navbar />
+      <Navbar />
     {children}
     </body>
   </html>    
