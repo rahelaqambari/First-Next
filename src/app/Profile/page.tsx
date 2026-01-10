@@ -1,10 +1,11 @@
 import Me from '@/Components/Me'
-import React from 'react'
+import Project from '@/Components/Project'
 
 function page() {
   return (
     <div>
       <Me />
+      <Project />
     </div>
   )
 }
