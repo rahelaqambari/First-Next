@@ -14,7 +14,7 @@ async function getposts(id:string):Promise<Post[]>{
      const response =  await fetch(`https://jsonplaceholder.typicode.com/posts?userId=${id}`);
      return response.json();
 }
-async function getalbum(id:string):Promise<Post[]>{
+async function getalbum(id:string):Promise<album[]>{
      const response =  await fetch(`https://jsonplaceholder.typicode.com/albums?userId=${id}`);
      return response.json();
 }
@@ -33,7 +33,10 @@ export default async function page({params,}:{params: Promise<{id:string}>;}) {
             </div>
         ))}
         {/* albums */}
-        {albums.map(Album=>(
+        {albums.map(album=>(
+            <div key={album.id} className="bg-amber-700 text-center">
+                <h1 className="text-3xl text-whit p-3">{album.tittle}</h1>
+            </div>
         ))}
     </div>)
 }
