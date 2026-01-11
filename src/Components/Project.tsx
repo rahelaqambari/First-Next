@@ -17,10 +17,10 @@ function Project() {
             <h1 className='text-2xl font-bold text-white p-12'>Bakary, Cookies</h1>
             <h1 className='text-9xl p-4 '>🥯🧁🍰🍪</h1>
       </div>
-      <div className='h-fit w-4/12 border rounded-md border-white flex flex-col justify-center items-center'>
+      {/* <div className='h-fit w-4/12 border rounded-md border-white flex flex-col justify-center items-center'>
             <h1 className='text-2xl font-bold text-white p-12'>Bakary, Cookies</h1>
             <h1 className='text-9xl' p-4 > 🍔🌯🍕🥤</h1>
-      </div>
+      </div> */}
         </div>
     </div>
   )
