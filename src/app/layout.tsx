@@ -15,12 +15,14 @@ function layout({children}: Readonly<{
  
 }>) {
   return (
+    <div>
   <html>
     <body>
       <Navbar />
     {children}
     </body>
-  </html>    
+  </html> 
+  </div>   
   )
 }
 

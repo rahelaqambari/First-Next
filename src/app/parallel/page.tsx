@@ -1,6 +1,3 @@
-import Author from "@/Components/Author";
-import { Suspense } from "react";
-
 type Post = {
     id: number,
     tittle: string,
